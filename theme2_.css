@@ -68,7 +68,7 @@
 
 
 /* ===== DROPDOWN MENUS ===== */
-/* Fix invisible text in page action menu */
+/* Fixes invisible text in Page Action and Account menus */
 .v-menu__content {
   background-color: #ffffff !important;
 }
