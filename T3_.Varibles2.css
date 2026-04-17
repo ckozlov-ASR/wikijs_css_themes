@@ -40,6 +40,40 @@
   color: var(--header-icon) !important;
 }
 
+/* ===== MOBILE / RESPONSIVE SEARCH BAR FIX ===== */
+
+/* Purple mobile search field background */
+.v-application .v-input__slot.deep-purple,
+.v-application .theme--dark .v-input__slot.deep-purple,
+.v-application .v-text-field--solo .v-input__slot.deep-purple,
+.v-application .v-text-field--solo-flat .v-input__slot.deep-purple {
+  background-color: var(--sidebar-button) !important;
+  border-color: var(--sidebar-button) !important;
+}
+
+/* Mobile search input text */
+.v-application .v-text-field--solo input,
+.v-application .v-text-field--solo-flat input {
+  color: var(--sidebar-text) !important;
+}
+
+/* Mobile search label / placeholder */
+.v-application .v-text-field--solo .v-label,
+.v-application .v-text-field--solo-flat .v-label {
+  color: rgba(255,255,255,0.65) !important;
+}
+
+/* Mobile search icons */
+.v-application .v-text-field--solo .v-icon,
+.v-application .v-text-field--solo-flat .v-icon {
+  color: var(--sidebar-icon) !important;
+}
+
+/* Optional: rounded look */
+.v-application .v-text-field--solo .v-input__slot,
+.v-application .v-text-field--solo-flat .v-input__slot {
+  border-radius: 999px !important;
+}
 
 /* ===== SIDEBAR ===== */
 .v-application .v-navigation-drawer,
