@@ -1,6 +1,6 @@
 /* =====================================
    Orange Wiki.js Theme
-   Version: 1.3
+   Version: 1.4
    ===================================== */
 
 /* ===== THEME VARIABLES ===== */
@@ -22,8 +22,11 @@
 
   --h1-color: #b94f16;
   --h1-underline: #b94f16;
-}
 
+  --search-border: #000000;
+  --search-label: rgba(255,255,255,0.7);
+  --button-border-subtle: rgba(255,255,255,0.08);
+}
 
 /* ===== HEADER ===== */
 .v-application .nav-header,
@@ -40,39 +43,36 @@
   color: var(--header-icon) !important;
 }
 
-/* ===== MOBILE / RESPONSIVE SEARCH BAR FIX ===== */
-
-/* Purple mobile search field background */
-.v-application .v-input__slot.deep-purple,
-.v-application .theme--dark .v-input__slot.deep-purple,
-.v-application .v-text-field--solo .v-input__slot.deep-purple,
-.v-application .v-text-field--solo-flat .v-input__slot.deep-purple {
-  background-color: var(--sidebar-button) !important;
-  border-color: var(--sidebar-button) !important;
+/* ===== MOBILE / RESPONSIVE SEARCH BAR + WRAPPER FIX ===== */
+.v-application .v-toolbar.deep-purple,
+.v-application header.deep-purple {
+  background-color: var(--sidebar-bg) !important;
+  border-color: var(--search-border) !important;
 }
 
-/* Mobile search input text */
-.v-application .v-text-field--solo input,
-.v-application .v-text-field--solo-flat input {
+.v-application .v-input__slot.deep-purple {
+  background-color: var(--sidebar-button) !important;
+  border-top: 1px solid var(--search-border) !important;
+  border-bottom: 1px solid var(--search-border) !important;
+  border-color: var(--search-border) !important;
+}
+
+.v-application .v-input__slot.deep-purple::before,
+.v-application .v-input__slot.deep-purple::after,
+.v-application .v-text-field.v-text-field--is-focused .v-input__slot.deep-purple::after {
+  border-bottom-color: var(--search-border) !important;
+}
+
+.v-application .v-input__slot.deep-purple input {
   color: var(--sidebar-text) !important;
 }
 
-/* Mobile search label / placeholder */
-.v-application .v-text-field--solo .v-label,
-.v-application .v-text-field--solo-flat .v-label {
-  color: rgba(255,255,255,0.65) !important;
+.v-application .v-input__slot.deep-purple .v-label {
+  color: var(--search-label) !important;
 }
 
-/* Mobile search icons */
-.v-application .v-text-field--solo .v-icon,
-.v-application .v-text-field--solo-flat .v-icon {
+.v-application .v-input__slot.deep-purple .v-icon {
   color: var(--sidebar-icon) !important;
-}
-
-/* Optional: rounded look */
-.v-application .v-text-field--solo .v-input__slot,
-.v-application .v-text-field--solo-flat .v-input__slot {
-  border-radius: 999px !important;
 }
 
 /* ===== SIDEBAR ===== */
@@ -89,8 +89,7 @@
   color: var(--sidebar-icon) !important;
 }
 
-
-/* ===== SIDEBAR TEXT ===== */
+/* ===== SIDEBAR TEXT FIX ===== */
 .theme--dark.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) {
   color: var(--sidebar-text) !important;
 }
@@ -102,7 +101,6 @@
   color: var(--sidebar-text) !important;
 }
 
-
 /* ===== SIDEBAR INTERACTION ===== */
 .v-navigation-drawer .v-list-item:hover {
   background-color: var(--hover-bg) !important;
@@ -113,16 +111,12 @@
   border-left: 3px solid var(--active-border);
 }
 
-
 /* ===== LEFT NAV BAR (Home / Browse buttons) ===== */
-
-/* Container */
 .v-application .pa-3.d-flex.blue.darken-3 {
   background-color: var(--sidebar-bg) !important;
   border-color: var(--sidebar-bg) !important;
 }
 
-/* Buttons */
 .v-application .v-btn.blue.darken-2,
 .v-application .theme--dark.v-btn.blue.darken-2 {
   background-color: var(--sidebar-button) !important;
@@ -130,31 +124,26 @@
   box-shadow: none !important;
 }
 
-/* Remove Vuetify overlay */
 .v-application .blue.darken-2::before,
 .v-application .blue.darken-3::before {
   background-color: transparent !important;
 }
 
-/* Button text + icons */
 .v-application .v-btn.blue.darken-2 .v-icon,
 .v-application .v-btn.blue.darken-2 .body-2,
 .v-application .v-btn.blue.darken-2 .v-btn__content {
   color: var(--sidebar-text) !important;
 }
 
-/* Button hover */
 .v-application .v-btn.blue.darken-2:hover {
   background-color: var(--active-bg) !important;
   border-color: var(--active-border) !important;
 }
 
-/* Subtle button border */
 .v-application .v-btn.blue.darken-2:not(.v-btn--text):not(.v-btn--outlined) {
-  border: 1px solid rgba(255,255,255,0.08) !important;
+  border: 1px solid var(--button-border-subtle) !important;
   outline: none !important;
 }
-
 
 /* ===== DROPDOWN MENUS ===== */
 .v-menu__content {
@@ -166,7 +155,6 @@
   color: var(--menu-text) !important;
 }
 
-
 /* ===== H1 HEADERS ===== */
 .v-main .contents h1.toc-header {
   color: var(--h1-color) !important;
@@ -176,7 +164,6 @@
 .v-main .contents h1.toc-header::after {
   background: linear-gradient(90deg, var(--h1-underline), transparent) !important;
 }
-
 
 /* ===== LAYOUT CLEANUP ===== */
 .page-col-sd,
