@@ -3,7 +3,8 @@
    Version: 1.1
    To install
    1 - Copy / paste content into Theme / CSS Override Code Injection window
-   2 - Wiki.js will remove all comments   
+   2 - Wiki.js will remove all comments
+   Kudos to fguisso for the inspiration links - https://github.com/requarks/wiki/discussions/6584
    ===================================== */
 
 
@@ -14,7 +15,7 @@
   border-color: #b94f16 !important;
 }
 
-/* Header icons */
+/* ===== HEADER ICONS ===== */
 .v-application .nav-header .v-icon,
 .v-application .nav-header-inner .v-icon,
 .v-application .v-app-bar .v-icon,
@@ -32,7 +33,7 @@
   border-color: #3a2a22 !important;
 }
 
-/* Sidebar icons */
+/* ===== SIDEBAR ICONS ===== */
 .v-navigation-drawer .v-icon {
   color: #ffd2b3 !important;
 }
@@ -79,18 +80,18 @@
 }
 
 
-/* H1 Page headers */
+/* ===== H1 Page Headers ===== */
 .v-main .contents h1.toc-header {
   color: #b94f16 !important;   /* your LFA orange */
   font-weight: 700;
 }
 
 
-/* H! Page headers underline */
+/* ===== H1 Page Headers Underline ===== */
 .v-main .contents h1.toc-header::after {
   background: linear-gradient(90deg, #b94f16, transparent) !important;
 }
-/* ===== LAYOUT CLEANUP ===== */
+/* ===== Layout Cleanup ===== */
 /* Optional - Remove default UI elements for cleaner layout */
 .page-col-sd,
 .page-header-section {
