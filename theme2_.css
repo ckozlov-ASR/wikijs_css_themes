@@ -2,8 +2,8 @@
    Orange Wiki.js Theme
    Version: 1.1
    To install
-   1 - Copy / paste content into Theme / CSS Override Code Injection
-   2 - Wiki.js will remove all comments        
+   1 - Copy / paste content into Theme / CSS Override Code Injection window
+   2 - Wiki.js will remove all comments   
    ===================================== */
 
 
@@ -79,6 +79,17 @@
 }
 
 
+/* H1 Page headers */
+.v-main .contents h1.toc-header {
+  color: #b94f16 !important;   /* your LFA orange */
+  font-weight: 700;
+}
+
+
+/* H! Page headers underline */
+.v-main .contents h1.toc-header::after {
+  background: linear-gradient(90deg, #b94f16, transparent) !important;
+}
 /* ===== LAYOUT CLEANUP ===== */
 /* Optional - Remove default UI elements for cleaner layout */
 .page-col-sd,
