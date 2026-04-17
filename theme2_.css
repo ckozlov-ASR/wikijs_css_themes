@@ -80,13 +80,13 @@
 
 
 /* ===== LAYOUT CLEANUP ===== */
-/* Remove default Wiki.js UI elements for cleaner layout */
+/* Optional - Remove default UI elements for cleaner layout */
 .page-col-sd,
 .page-header-section {
   display: none !important;
 }
 
-/* Remove Footer */
+/* Optional - Remove Footer */
 .v-footer {
   display: none !important;
 }
