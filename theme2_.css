@@ -2,7 +2,7 @@
    Orange Wiki.js Theme
    Version: 1.1
    To install
-   1 copy / paste into Theme / CSS Override
+   1 - Copy / paste content into Theme / CSS Override Code Injection
    2 - Wiki.js will remove all comments        
    ===================================== */
 
@@ -89,4 +89,9 @@
 /* Optional - Remove Footer */
 .v-footer {
   display: none !important;
+}
+
+/* Optional - Active Tab flare */
+.v-navigation-drawer .v-list-item--active {
+  border-left: 3px solid #f47a20;
 }
