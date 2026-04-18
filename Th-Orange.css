@@ -165,7 +165,7 @@
   background: linear-gradient(90deg, var(--h1-underline), transparent) !important;
 }
 
-/* ===== LAYOUT CLEANUP ===== */
+/* ===== OPTIONAL LAYOUT CLEANUPS ===== */
 /* Hide edit and menu block */
 .page-col-sd,
 .page-header-section {
