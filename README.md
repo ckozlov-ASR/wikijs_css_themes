@@ -114,9 +114,4 @@ https://github.com/requarks/wiki/discussions/6584
 Final note
 
 Wiki.js deserves a better default visual experience than it currently gets out of the box.
-
-<<<<<<< HEAD
 This project is a small attempt to help with that.
-=======
-This project is a small attempt to help with that.
->>>>>>> 783e6d096d81dbe2f451e1cfa54a35051000b2e2
