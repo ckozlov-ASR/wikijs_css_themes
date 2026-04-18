@@ -10,7 +10,7 @@ New colors, selectors, and UI change are still being discovered and refined.
 
 ## Installation
 
-Copy / paste the contents of the CSS file into the Wiki.js CSS override area:
+Copy / paste the contents of the CSS file into the Wiki.js CSS override area.  Sk
 ```text
 Administration → Theme → CSS Override
 ```
