@@ -4,11 +4,7 @@ A custom CSS theme project for Wiki.js focused on improving the default visual e
 
 ## Why this project exists
 
-Wiki.js is a strong platform. It is fast, flexible, and easy to deploy. The default theme, can feel inconsistent in places, especially when it comes to color usage, navigation states, mobile behavior, and some Vuetify-driven UI elements.
-
-This project is an attempt to improve that experience through a single CSS override file.
-
-The goal is not to redesign Wiki.js from scratch. The goal is to make it feel cleaner, more coherent, and more usable while staying lightweight and easy to maintain.
+Wiki.js is a strong platform. It is fast, flexible, and easy to deploy.  This project aims to make changes to the default theme easier through a single CSS override file.
 
 ## Project status
 
