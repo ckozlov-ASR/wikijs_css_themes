@@ -24,13 +24,11 @@ Then save and refresh the browser.
 
 ## What this theme addresses
 
-Some of the main issues this theme works around include:
-
-- default blue or purple utility colors appearing in unexpected places
-- inconsistent text contrast in navigation elements
+- default blue or purple utility colors
+- text contrast in navigation elements
 - mobile search bar color mismatches
-- menu text visibility problems
-- default layout elements that add clutter in some deployments
+- menu text visibility
+- default layout elements that add clutter
 
 ## Roadmap
 
@@ -45,7 +43,7 @@ Planned and possible future improvements include:
 
 ## Contributing
 
-Suggestions, cleanup ideas, and UI refinement ideas are welcome.
+Suggestions, cleanup ideas, and refinement ideas are welcome.
 
 This project is still being shaped, so practical feedback is especially useful:
 
