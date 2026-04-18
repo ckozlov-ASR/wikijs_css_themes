@@ -1,4 +1,4 @@
-# Wiki.js Custom Theme
+# Wiki.js Custom Theme Template
 
 A custom CSS theme for Wiki.js focused on improving the default visual experience without modifying core application files.
 
