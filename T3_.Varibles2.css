@@ -166,8 +166,19 @@
 }
 
 /* ===== LAYOUT CLEANUP ===== */
+/* Hide edit and menu block */
 .page-col-sd,
-.page-header-section,
+.page-header-section {
+  display: none !important;
+}
+
+/* Hide footer */
 .v-footer {
+  display: none !important;
+}
+
+/* Hide account login link */
+button[aria-label="Account"],
+a[href*="/login"] {
   display: none !important;
 }
