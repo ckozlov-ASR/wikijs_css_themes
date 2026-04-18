@@ -10,11 +10,11 @@ New colors, selectors, and UI change are still being discovered and refined.
 
 ## Installation
 
-Copy the contents of the theme CSS file into the Wiki.js CSS override area:
+Copy / paste the contents of the CSS file into the Wiki.js CSS override area:
 ```text
 Administration → Theme → CSS Override
 ```
-Then save and refresh the browser.
+Click "Apply" - refresh the browser.
 
 ## What this theme addresses
 
@@ -22,7 +22,7 @@ Then save and refresh the browser.
 - text contrast in navigation elements
 - mobile search bar color mismatches
 - menu text visibility
-- default layout elements that add clutter
+- (optional) default layout elements that add clutter
 
 ## Roadmap
 
@@ -52,6 +52,3 @@ Thanks to the Wiki.js community for the shared ideas and inspiration, especially
 
 https://github.com/requarks/wiki/discussions/6584
 
-## Final note
-
-Wiki.js deserves a better default visual experience than it currently gets out of the box. This project is a small attempt to help with that.
