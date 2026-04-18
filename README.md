@@ -1,25 +1,19 @@
 # Wiki.js Custom Theme Templates
 
-A custom CSS theme project for Wiki.js focused on improving the default visual experience without modifying core application files.
-
-## Why this project exists
-
-Wiki.js is a strong platform. It is fast, flexible, and easy to deploy.  This project aims to make changes to the default theme easier through a single CSS override file.
+Wiki.js is a robust platform - fast, flexible, and easy to deploy. This project aims to simplify theme and skinning customizations by leveraging the CSS override function and streamlining color swaps through CSS variables.
 
 ## Project status
 
 **Work in progress.**
 
-This is an active project.  New colors, selectors, and UI change are still being discovered and refined.
+New colors, selectors, and UI change are still being discovered and refined.
 
 ## Installation
 
 Copy the contents of the theme CSS file into the Wiki.js CSS override area:
-
 ```text
 Administration → Theme → CSS Override
 ```
-
 Then save and refresh the browser.
 
 ## What this theme addresses
