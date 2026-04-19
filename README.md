@@ -11,15 +11,15 @@ New colors, selectors, and UI change are still being discovered and refined.
 ## Installation
 
 1) Copy / paste the CSS contents into the Wiki.js CSS Override window (Administration Area / Themes / Code Injection).
-2) Skip the OPTIONAL LAYOUT CLEANUPS section at the bottom of the CSS content if you prefer not to make those changes.
-3) Click "Apply", then refresh the admin page.  Wiki.js will commit the changes, but remove all /* comments */ out.
-4) Go to the Wiki.js site and refresh the page.
+2) Skip the OPTIONAL LAYOUT CLEANUPS section at the bottom of the CSS code if you prefer not to make those changes.
+3) Click "Apply", then refresh the admin page.  Wiki.js will commit the changes, but remove all the /* comments */ out.
+4) Refresh the Wiki.js site page.
 
-## What this theme addresses
+## What these themes addresses
 
 - Default blue or purple utility colors
 - Text contrast in navigation elements
-- Mobile search bar color mismatches
+- Mobile search bar color
 - Menu text and icon visibility
 - Default layout elements that can add clutter (optional)
 
