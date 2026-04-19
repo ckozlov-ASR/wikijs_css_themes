@@ -11,7 +11,7 @@ New colors, selectors, and UI change are still being discovered and refined.
 ## Installation
 
 1) Copy / paste the CSS contents into the Wiki.js CSS Override window (Administration Area / Themes / Code Injection).
-2) Skip the OPTIONAL LAYOUT CLEANUPS sections at the bottom of the CSS content if you prefer not to make those changes.
+2) Skip the OPTIONAL LAYOUT CLEANUPS section at the bottom of the CSS content if you prefer not to make those changes.
 3) Click "Apply", then refresh the admin page.  Wiki.js will commit the changes, but remove all /* comments */ out.
 4) Go to the Wiki.js site and refresh the page.
 
