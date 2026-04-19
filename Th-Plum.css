@@ -4,26 +4,26 @@
 
 /* ===== THEME VARIABLES ===== */
 :root {
-  --header-bg: #2b2f36;
-  --header-icon: #f3f4f6;
+  --header-bg: #6a2c70;
+  --header-icon: #faf0fb;
 
-  --sidebar-bg: #1d2127;
-  --sidebar-button: #383f48;
-  --sidebar-icon: #f29c9c;
-  --sidebar-text: #f9fafb;
+  --sidebar-bg: #3d1d42;
+  --sidebar-button: #5a2b60;
+  --sidebar-icon: #d8aee3;
+  --sidebar-text: #fdf7ff;
 
-  --hover-bg: rgba(255,255,255,0.05);
-  --active-bg: rgba(239,68,68,0.18);
-  --active-border: #ef4444;
+  --hover-bg: rgba(255,255,255,0.06);
+  --active-bg: rgba(192,132,252,0.2);
+  --active-border: #c084fc;
 
   --menu-bg: #ffffff;
-  --menu-text: #1d2127;
+  --menu-text: #3d1d42;
 
-  --h1-color: #2b2f36;
-  --h1-underline: #ef4444;
+  --h1-color: #6a2c70;
+  --h1-underline: #c084fc;
 
-  --search-border: #1d2127;
-  --search-label: rgba(255,255,255,0.68);
+  --search-border: #3d1d42;
+  --search-label: rgba(255,255,255,0.7);
   --button-border-subtle: rgba(255,255,255,0.08);
 }
 
