@@ -1,0 +1,183 @@
+/* =====================================
+   Sand-Navy Wiki.js Theme
+   ===================================== */
+
+/* ===== THEME VARIABLES ===== */
+:root {
+  --header-bg: #d2b48c;
+  --header-icon: #1f2a44;
+
+  --sidebar-bg: #24324a;
+  --sidebar-button: #3a4c6d;
+  --sidebar-icon: #e8d7b2;
+  --sidebar-text: #f8fafc;
+
+  --hover-bg: rgba(255,255,255,0.06);
+  --active-bg: rgba(210,180,140,0.2);
+  --active-border: #d2b48c;
+
+  --menu-bg: #ffffff;
+  --menu-text: #24324a;
+
+  --h1-color: #24324a;
+  --h1-underline: #d2b48c;
+
+  --search-border: #24324a;
+  --search-label: rgba(255,255,255,0.7);
+  --button-border-subtle: rgba(255,255,255,0.08);
+}
+
+/* ===== HEADER ===== */
+.v-application .nav-header,
+.v-application .nav-header-inner {
+  background-color: var(--header-bg) !important;
+  border-color: var(--header-bg) !important;
+}
+
+/* ===== HEADER ICONS ===== */
+.v-application .nav-header .v-icon,
+.v-application .nav-header-inner .v-icon,
+.v-application .v-app-bar .v-icon,
+.v-application .v-toolbar .v-icon {
+  color: var(--header-icon) !important;
+}
+
+/* ===== MOBILE / RESPONSIVE SEARCH BAR + WRAPPER FIX ===== */
+.v-application .v-toolbar.deep-purple,
+.v-application header.deep-purple {
+  background-color: var(--sidebar-bg) !important;
+  border-color: var(--search-border) !important;
+}
+
+.v-application .v-input__slot.deep-purple {
+  background-color: var(--sidebar-button) !important;
+  border-top: 1px solid var(--search-border) !important;
+  border-bottom: 1px solid var(--search-border) !important;
+  border-color: var(--search-border) !important;
+}
+
+.v-application .v-input__slot.deep-purple::before,
+.v-application .v-input__slot.deep-purple::after,
+.v-application .v-text-field.v-text-field--is-focused .v-input__slot.deep-purple::after {
+  border-bottom-color: var(--search-border) !important;
+}
+
+.v-application .v-input__slot.deep-purple input {
+  color: var(--sidebar-text) !important;
+}
+
+.v-application .v-input__slot.deep-purple .v-label {
+  color: var(--search-label) !important;
+}
+
+.v-application .v-input__slot.deep-purple .v-icon {
+  color: var(--sidebar-icon) !important;
+}
+
+/* ===== SIDEBAR ===== */
+.v-application .v-navigation-drawer,
+.v-application .v-navigation-drawer__content,
+.v-application .v-navigation-drawer .theme--dark.v-list,
+.v-application .v-navigation-drawer .theme--dark.v-sheet {
+  background-color: var(--sidebar-bg) !important;
+  border-color: var(--sidebar-bg) !important;
+}
+
+/* ===== SIDEBAR ICONS ===== */
+.v-navigation-drawer .v-icon {
+  color: var(--sidebar-icon) !important;
+}
+
+/* ===== SIDEBAR TEXT FIX ===== */
+.theme--dark.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) {
+  color: var(--sidebar-text) !important;
+}
+
+.v-navigation-drawer .v-list-item .v-list-item__title,
+.v-navigation-drawer .v-list-item .v-list-item__subtitle,
+.v-navigation-drawer .v-list-item__content .v-list-item__title,
+.v-navigation-drawer a {
+  color: var(--sidebar-text) !important;
+}
+
+/* ===== SIDEBAR INTERACTION ===== */
+.v-navigation-drawer .v-list-item:hover {
+  background-color: var(--hover-bg) !important;
+}
+
+.v-navigation-drawer .v-list-item--active {
+  background-color: var(--active-bg) !important;
+  border-left: 3px solid var(--active-border);
+}
+
+/* ===== LEFT NAV BAR (Home / Browse buttons) ===== */
+.v-application .pa-3.d-flex.blue.darken-3 {
+  background-color: var(--sidebar-bg) !important;
+  border-color: var(--sidebar-bg) !important;
+}
+
+.v-application .v-btn.blue.darken-2,
+.v-application .theme--dark.v-btn.blue.darken-2 {
+  background-color: var(--sidebar-button) !important;
+  border-color: var(--sidebar-button) !important;
+  box-shadow: none !important;
+}
+
+.v-application .blue.darken-2::before,
+.v-application .blue.darken-3::before {
+  background-color: transparent !important;
+}
+
+.v-application .v-btn.blue.darken-2 .v-icon,
+.v-application .v-btn.blue.darken-2 .body-2,
+.v-application .v-btn.blue.darken-2 .v-btn__content {
+  color: var(--sidebar-text) !important;
+}
+
+.v-application .v-btn.blue.darken-2:hover {
+  background-color: var(--active-bg) !important;
+  border-color: var(--active-border) !important;
+}
+
+.v-application .v-btn.blue.darken-2:not(.v-btn--text):not(.v-btn--outlined) {
+  border: 1px solid var(--button-border-subtle) !important;
+  outline: none !important;
+}
+
+/* ===== DROPDOWN MENUS ===== */
+.v-menu__content {
+  background-color: var(--menu-bg) !important;
+}
+
+.v-menu__content .v-list-item,
+.v-menu__content .v-list-item__title {
+  color: var(--menu-text) !important;
+}
+
+/* ===== H1 HEADERS ===== */
+.v-main .contents h1.toc-header {
+  color: var(--h1-color) !important;
+  font-weight: 700;
+}
+
+.v-main .contents h1.toc-header::after {
+  background: linear-gradient(90deg, var(--h1-underline), transparent) !important;
+}
+
+/* ===== OPTIONAL LAYOUT CLEANUPS ===== */
+/* Hide edit and menu block */
+.page-col-sd,
+.page-header-section {
+  display: none !important;
+}
+
+/* Hide footer */
+.v-footer {
+  display: none !important;
+}
+
+/* Hide account login link */
+button[aria-label="Account"],
+a[href*="/login"] {
+  display: none !important;
+}
