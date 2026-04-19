@@ -17,35 +17,34 @@ New colors, selectors, and UI change are still being discovered and refined.
 
 ## What this theme addresses
 
-- default blue or purple utility colors
-- text contrast in navigation elements
-- mobile search bar color mismatches
-- menu text visibility
-- (optional) default layout elements that add clutter
+- Default blue or purple utility colors
+- Text contrast in navigation elements
+- Mobile search bar color mismatches
+- Menu text and icon visibility
+- Default layout elements that can add clutter (optional)
 
 ## Roadmap
 
-Planned and possible future improvements include:
+Possible future improvements include:
 
-- broader heading hierarchy styling
-- improved typography and spacing
-- additional color themes
-- more consistent button treatment
-- refined mobile behavior
-- optional variants for different use cases
+- Broader heading hierarchy styling
+- Improved typography and spacing
+- Additional color themes
+- Additional button / icon changes
+- Refined mobile behavior
+- Optional variants for different use cases
 
 ## Contributing
 
 This project is still being shaped, so practical feedback is especially useful:
 
-- places where default Wiki.js colors still leak through
-- mobile/responsive issues
-- selectors that can be simplified without breaking behavior
-- cleaner theme variants
+- Places where default Wiki.js colors still leak through
+- Mobile / responsive issues
+- Selectors that can be simplified without breaking behavior
+- Cleaner theme variants
 
 ## Acknowledgments
 
-Thanks to the Wiki.js community for the shared ideas and inspiration, especially discussions like this one:
-
+Thanks to the Wiki.js community for the shared ideas:
 https://github.com/requarks/wiki/discussions/6584
 
