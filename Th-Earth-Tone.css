@@ -171,13 +171,18 @@
   display: none !important;
 }
 
-/* Hide footer */
-.v-footer {
-  display: none !important;
-}
-
 /* Hide account login link */
 button[aria-label="Account"],
 a[href*="/login"] {
+  display: none !important;
+}
+
+/* Hide the paragraph anchor symbol */
+.v-main .contents .toc-anchor {
+  display: none !important;
+}
+
+/* Hide footer */
+.v-footer {
   display: none !important;
 }

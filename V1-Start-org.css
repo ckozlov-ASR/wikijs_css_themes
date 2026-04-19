@@ -121,12 +121,15 @@
 }
 .page-col-sd,
 .page-header-section {
-  display: none!important
+  display: none !important;
+}
+button[aria-label="Account"],
+a[href*="/login"] {
+  display: none !important;
+}
+.v-main .contents .toc-anchor {
+  display: none !important;
 }
 .v-footer {
-  display: none!important
-}
-a[href*="/login"],
-button[aria-label=Account] {
-  display: none!important
+  display: none !important;
 }
