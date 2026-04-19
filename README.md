@@ -36,8 +36,6 @@ Planned and possible future improvements include:
 
 ## Contributing
 
-Suggestions, cleanup ideas, and refinement ideas are welcome.
-
 This project is still being shaped, so practical feedback is especially useful:
 
 - places where default Wiki.js colors still leak through
